@@ -9,7 +9,27 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Addierer", "ConsoleApp1\Add
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anzahl_Sekunden_eines_Monats", "Anzahl_Sekunden_eines_Monats\Anzahl_Sekunden_eines_Monats.csproj", "{0CB8EC48-8749-4C11-8475-D8FF0587EF3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flussdiagramm", "Flussdiagramm\Flussdiagramm.csproj", "{531B80D0-A95B-411F-9E0D-C67BEB9CA8FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flussdiagramm 1", "Flussdiagramm\Flussdiagramm 1.csproj", "{531B80D0-A95B-411F-9E0D-C67BEB9CA8FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monatsnamen", "Monatsnamen\Monatsnamen.csproj", "{2404CFE3-6065-4001-965E-D4BC1E87A9DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flussdiagramm 2", "Flussdiagramm 2\Flussdiagramm 2.csproj", "{0AC6E6D9-30E7-478D-B2D0-8A39CBF29B39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kleines 1x1", "Kleines 1x1\Kleines 1x1.csproj", "{DBB29BB8-15F6-40C2-932A-47F350390A5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Durch 3 oder 5 teilbare Zahlen", "Durch 3 oder 5 teilbare Zahlen\Durch 3 oder 5 teilbare Zahlen.csproj", "{FDEB171E-8352-4C13-B063-1ED91AC933BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verbotene Wörter", "Verbotene Wörtetr\Verbotene Wörter.csproj", "{2FFBD012-CC44-4F99-A73C-942E049002CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eine Ganzzahl binär darstellen", "Eine Ganzzahl binär darstellen\Eine Ganzzahl binär darstellen.csproj", "{E3E19975-556B-40CB-BDA5-78082DF276CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quersumme berechnen", "Quersumme berechnen\Quersumme berechnen.csproj", "{348C9EE8-DEBD-48B3-8289-9C2E87050689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Durch Quersumme teilbare Zahlen", "Durch Quersumme teilbare Zahlen\Durch Quersumme teilbare Zahlen.csproj", "{CDC7A3B3-27F7-40B4-ACF6-5A34E7BC8C53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufsummieren", "Aufsummieren\Aufsummieren.csproj", "{1AD2C96F-5716-4878-9177-5316585969ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eine Diagonale Linie zeichnen", "Eine Diagonale Linie zeichnen\Eine Diagonale Linie zeichnen.csproj", "{009593DE-B5D4-442B-B22D-759EDCB2865B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +53,46 @@ Global
 		{531B80D0-A95B-411F-9E0D-C67BEB9CA8FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{531B80D0-A95B-411F-9E0D-C67BEB9CA8FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{531B80D0-A95B-411F-9E0D-C67BEB9CA8FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2404CFE3-6065-4001-965E-D4BC1E87A9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2404CFE3-6065-4001-965E-D4BC1E87A9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2404CFE3-6065-4001-965E-D4BC1E87A9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2404CFE3-6065-4001-965E-D4BC1E87A9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC6E6D9-30E7-478D-B2D0-8A39CBF29B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC6E6D9-30E7-478D-B2D0-8A39CBF29B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC6E6D9-30E7-478D-B2D0-8A39CBF29B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC6E6D9-30E7-478D-B2D0-8A39CBF29B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB29BB8-15F6-40C2-932A-47F350390A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB29BB8-15F6-40C2-932A-47F350390A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB29BB8-15F6-40C2-932A-47F350390A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB29BB8-15F6-40C2-932A-47F350390A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDEB171E-8352-4C13-B063-1ED91AC933BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDEB171E-8352-4C13-B063-1ED91AC933BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDEB171E-8352-4C13-B063-1ED91AC933BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDEB171E-8352-4C13-B063-1ED91AC933BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FFBD012-CC44-4F99-A73C-942E049002CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFBD012-CC44-4F99-A73C-942E049002CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFBD012-CC44-4F99-A73C-942E049002CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFBD012-CC44-4F99-A73C-942E049002CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E19975-556B-40CB-BDA5-78082DF276CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E19975-556B-40CB-BDA5-78082DF276CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E19975-556B-40CB-BDA5-78082DF276CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E19975-556B-40CB-BDA5-78082DF276CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348C9EE8-DEBD-48B3-8289-9C2E87050689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348C9EE8-DEBD-48B3-8289-9C2E87050689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348C9EE8-DEBD-48B3-8289-9C2E87050689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348C9EE8-DEBD-48B3-8289-9C2E87050689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC7A3B3-27F7-40B4-ACF6-5A34E7BC8C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC7A3B3-27F7-40B4-ACF6-5A34E7BC8C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC7A3B3-27F7-40B4-ACF6-5A34E7BC8C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC7A3B3-27F7-40B4-ACF6-5A34E7BC8C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD2C96F-5716-4878-9177-5316585969ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD2C96F-5716-4878-9177-5316585969ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD2C96F-5716-4878-9177-5316585969ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD2C96F-5716-4878-9177-5316585969ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{009593DE-B5D4-442B-B22D-759EDCB2865B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{009593DE-B5D4-442B-B22D-759EDCB2865B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{009593DE-B5D4-442B-B22D-759EDCB2865B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{009593DE-B5D4-442B-B22D-759EDCB2865B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

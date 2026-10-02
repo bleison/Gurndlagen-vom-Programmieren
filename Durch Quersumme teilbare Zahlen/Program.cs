@@ -23,6 +23,7 @@
         {
             int sum = 0;
             int currentNum = zahl1;
+            Console.WriteLine("Zahl \t| Quersumme \t| Ergebnis");
             while (currentNum !<= zahl2)
             { 
                 int calcNum = currentNum;
@@ -33,9 +34,11 @@
                     calcNum /= 10;
                 }
 
+
                 if ((currentNum % sum) == 0)
                 {
-                    Console.WriteLine("");
+
+                    Console.WriteLine("§");
                     Console.WriteLine($"{currentNum} \t {sum} \t {(currentNum / sum)}");
                 }
                 currentNum++;

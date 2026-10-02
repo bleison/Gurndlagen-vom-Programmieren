@@ -1,17 +1,26 @@
-﻿namespace Eine_Ganzzahl_binär_darstellen
+﻿using System.Dynamic;
+using System.Linq.Expressions;
+
+namespace Eine_Ganzzahl_binär_darstellen
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ganzzahlige Dezimalzahl (q to Quit)");
-            string dezimal = Console.ReadLine();
-            
-            int zahl = Convert.ToInt32(dezimal);
+            int wert;
+            string bin = "";
+            int n = Convert.ToInt32(Console.ReadLine());
+            do 
+            {
+                int rest = n % 2;
+                bin = rest + bin;
+                wert = n / 2;
+                n = wert;
 
-            string binar = Convert.ToString(zahl, 2);
+            } while (n != 0);
+            Console.WriteLine(bin);
 
-            Console.WriteLine("Binär: " + binar);
+
         }
     }
 }

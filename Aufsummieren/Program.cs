@@ -14,16 +14,12 @@
                 valid = false;
                 for (int i = 0; i < eingabeArray.Length; i++)
                 {
-                    if (int.TryParse(eingabeArray[i], out num[i]))
-                    {
-
-                    }
-                    else
+                    if (!(int.TryParse(eingabeArray[i], out num[i])))
                     {
                         Console.WriteLine("Du Habasch, ich benötige eine Zahl! :)");
                         valid = true;
-
                     }
+         
                 }
             } while (valid);
             PrintArray(SumUp(num));
